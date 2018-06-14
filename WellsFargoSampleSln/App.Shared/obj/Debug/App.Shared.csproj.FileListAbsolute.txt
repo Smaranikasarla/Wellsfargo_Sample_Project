@@ -1,0 +1,6 @@
+C:\Users\660503\Desktop\Sample .Net\WellsFargoSampleSln\App.Shared\bin\Debug\App.Shared.dll
+C:\Users\660503\Desktop\Sample .Net\WellsFargoSampleSln\App.Shared\bin\Debug\App.Shared.pdb
+C:\Users\660503\Desktop\Sample .Net\WellsFargoSampleSln\App.Shared\obj\Debug\App.Shared.csprojResolveAssemblyReference.cache
+C:\Users\660503\Desktop\Sample .Net\WellsFargoSampleSln\App.Shared\obj\Debug\App.Shared.csproj.CoreCompileInputs.cache
+C:\Users\660503\Desktop\Sample .Net\WellsFargoSampleSln\App.Shared\obj\Debug\App.Shared.dll
+C:\Users\660503\Desktop\Sample .Net\WellsFargoSampleSln\App.Shared\obj\Debug\App.Shared.pdb

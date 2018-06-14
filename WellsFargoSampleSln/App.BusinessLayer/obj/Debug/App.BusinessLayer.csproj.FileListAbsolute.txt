@@ -1,0 +1,9 @@
+C:\Users\660503\Desktop\Sample .Net\WellsFargoSampleSln\App.BusinessLayer\bin\Debug\App.BusinessLayer.dll
+C:\Users\660503\Desktop\Sample .Net\WellsFargoSampleSln\App.BusinessLayer\bin\Debug\App.BusinessLayer.pdb
+C:\Users\660503\Desktop\Sample .Net\WellsFargoSampleSln\App.BusinessLayer\obj\Debug\App.BusinessLayer.csprojResolveAssemblyReference.cache
+C:\Users\660503\Desktop\Sample .Net\WellsFargoSampleSln\App.BusinessLayer\obj\Debug\App.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\660503\Desktop\Sample .Net\WellsFargoSampleSln\App.BusinessLayer\obj\Debug\App.BusinessLayer.dll
+C:\Users\660503\Desktop\Sample .Net\WellsFargoSampleSln\App.BusinessLayer\obj\Debug\App.BusinessLayer.pdb
+C:\Users\660503\Desktop\Sample .Net\WellsFargoSampleSln\App.BusinessLayer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\660503\Desktop\Sample .Net\WellsFargoSampleSln\App.BusinessLayer\bin\Debug\App.Shared.dll
+C:\Users\660503\Desktop\Sample .Net\WellsFargoSampleSln\App.BusinessLayer\bin\Debug\App.Shared.pdb

@@ -1,0 +1,83 @@
+﻿@model App.BusinessLayer.Country
+
+@{
+    ViewBag.Title = "StateInfo";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+<h2>State Geographical Information</h2>
+
+@using (Html.BeginForm("StateInfo", "Geography", FormMethod.Post))
+{
+
+    <div class="row">
+        <form role="form" class="form-inline">
+            <div class="form-group">
+                <label id="lblCountry" for="" class="control-label inline form-group">Enter Country Code</label>
+                <input type="text" class="focused form-control text-uppercase inline" name="CountryCode" id="CountryCode" />
+                <button type="submit" id="btnCountrySearch" class="btn btn-primary inline">Submit</button>
+
+            </div>
+
+        </form>
+
+    </div>
+    @*<table>
+
+            <tr>
+                <td>Enter Country Code: </td>
+                <td>@Html.TextBox("CountryCode")</td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="Submit"></td>
+            </tr>
+        </table>*@
+}
+
+
+
+
+     <div class="container">
+        <div class="row">
+            <div class="col=md-6"><label id="lblCountry" class="control-label inline form-group" for="CountryName">@Html.LabelFor(model => model.Name)</label></div>
+            <div class="col-md-4"><span name="CountryName" /></div>
+        </div>
+    </div>
+
+
+   
+
+
+
+@if (ViewBag.StatesResult != null)
+{
+
+
+    <div class="container">
+        <div class="row">
+
+            <div>
+                <table id="tblState" class=" table table-striped table-bordered  datatable">
+                    <thead></thead>
+                    <tbody></tbody>
+                    <tfoot></tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+
+                var statesResponse = '@(ViewBag.StatesResult)';
+                var states = JSON.parse(statesResponse.replace(/&quot;/g, '"'));
+                console.log(states.RestResponse);
+                StateUI.ViewCountryData(states.RestResponse.result);
+        });
+
+    </script>
+
+    <script type="text/javascript" src="@Url.Content("/AppJs/StateUI.js")"></script>
+
+}
+
